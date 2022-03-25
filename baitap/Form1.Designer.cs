@@ -121,8 +121,10 @@ namespace baitap
             this.radioGender.Location = new System.Drawing.Point(127, 146);
             this.radioGender.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioGender.Name = "radioGender";
+            this.radioGender.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
             this.radioGender.Properties.Appearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
             this.radioGender.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioGender.Properties.Appearance.Options.UseBackColor = true;
             this.radioGender.Properties.Appearance.Options.UseBorderColor = true;
             this.radioGender.Properties.Appearance.Options.UseFont = true;
             this.radioGender.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
