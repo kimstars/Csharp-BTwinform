@@ -147,7 +147,26 @@ namespace baitap
 
         private void btnDeleteInfo_Click(object sender, EventArgs e)
         {
-            item.Remove();
+            DialogResult res;
+            res = MessageBox.Show("Có chắc chăn xóa ","Thông báo", MessageBoxButtons.OKCancel);
+            if(res == DialogResult.OK)
+            {
+                item.Remove();
+            }
+        }
+        private void btnAddClassName_Click(object sender, EventArgs e)
+        {
+            
+            OpenFileDialog open = new OpenFileDialog();
+            open.Filter = "Image Files (*.jpg;*.jpeg;.*.gif;)|*.jpg;*.jpeg;.*.gif";
+            if (open.ShowDialog() == DialogResult.OK)
+            {
+                // display image in picture box  
+                pictureBox.Image = new Bitmap(open.FileName);
+                // image file path  
+
+            }
+           
         }
     }
 }
