@@ -296,7 +296,7 @@ namespace baitap
             // 
             // pictureBox
             // 
-            this.pictureBox.Location = new System.Drawing.Point(180, 207);
+            this.pictureBox.Location = new System.Drawing.Point(198, 207);
             this.pictureBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox.Name = "pictureBox";
             this.pictureBox.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
